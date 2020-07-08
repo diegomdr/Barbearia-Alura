@@ -33,7 +33,8 @@ nav a {
 }
 
 nav a:hover {
-
+	color: orange;
+	text-decoration: underline;
 }
 
 .produtos {
@@ -91,10 +92,6 @@ footer {
 	color: #FFFFFF;
 	font-size: 13px;
 	margin: 20px 0 0;
-}
-
-main {
-	
 }
 
 form {
@@ -250,7 +247,7 @@ td, th {
 }
 
 @media screen and (max-width: 480px) {
-	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos {
 		width: auto;
 	}
 	
@@ -265,4 +262,31 @@ td, th {
 	.lista-beneficios, .imagem-beneficios {
 		width: 100%;
 	}
+
+	.produtos li {
+		margin: 0 10%;
+		width: 80%;
+	}
+
+	form {
+		width: 100%;
+	}
+
+	.opcoes {
+		width: 50%;
+		height: 50px;
+		margin: 0 25%;
+		font-size: 20px;
+		text-align-last: center;
+	}
+
+	.enviar {
+		width: 75%;
+		margin: 0 12%;
+	}
+
+	table {
+		margin: 0 25%;
+	}
+
 }
